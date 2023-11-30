@@ -9,8 +9,6 @@ Rails.application.routes.draw do
       resources :productos
           resources :venta
       resources :users
-      resources :sessions, only: [:create]
-      resources :registration, only: [:create]
       resources :usuarios do
         collection do
           get :find_by_email
@@ -18,8 +16,6 @@ Rails.application.routes.draw do
           get :find_priv_by_email
         end
       end
-      delete :logout, to: "sessions#logout"
-      get :logged_in, to: "sessions#logged_in"
     end
   end
 
