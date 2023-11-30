@@ -8,8 +8,6 @@ gem "rails", "~> 7.1.2"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
-gem "pg" -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config
-
 # no se pero se instala
 gem "rack-cors"
 
