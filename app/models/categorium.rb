@@ -1,0 +1,3 @@
+class Categorium < ApplicationRecord
+
+end
