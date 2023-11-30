@@ -201,7 +201,6 @@ DEPENDENCIES
   bcrypt
   bootsnap
   debug
-  pg
   puma (>= 5.0)
   rack-cors
   rails (~> 7.1.2)
